@@ -56,3 +56,6 @@ frontend5 : 리액트 타입으로 변경
 <img src = "캡쳐이미지"> 또는
 
 <a href = "포폴링크">
+
+# 사용한 링크
+https://animate.style/ : animate 라이브러리
