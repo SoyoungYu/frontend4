@@ -26,3 +26,85 @@ nav{
     transition: 0.4s;
 }
 .gnb a:hover::after{ left: 0; width: 100%; }
+
+.bgAnimation{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgAnimation h2{
+    color: #fff;
+    text-shadow: 1px 1px 1px gray;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 100px;
+}
+
+.bgAnimation h2 span{ color: orange; }
+
+.icons-slider{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px gray;
+}
+.icons-slider i{ font-size: 60px; }
+.icons-slider span{ display: block; }
+.icons-slider li{ width: 33.333333%; }
+
+/* Swiper */
+.icon-container{
+    width: 600px;
+    position: relative;
+}
+.swiper{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide{
+    background-position: center;
+    background-size: cover;
+}
+.swiper-slide img{
+    display: block;
+    width: 100%;
+}
+
+/* section2 */
+.animalFormRegister{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/images/section01_bg.jpeg');
+    height: 100vh;
+}
+.animalFormRegister>div{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.animalFormRegister td{ padding: 10px; font-size: 16px; }
+.animalFormRegister td[rowspan="4"]{ font-size: 26px; }
+.animalFormRegister table{ margin-bottom: 50px; }
+.animalFormRegister .btn{
+    display: block;
+    width: 50%;
+    line-height: 50px;
+    background-color: gray;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.hide{ display: none; }
+.active{ display: block; }
+
+/* input[name="animalType"]:checked ~ tr{} */
